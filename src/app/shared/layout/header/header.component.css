@@ -1,7 +1,7 @@
 .header{
-  width: 100%;
+  width: max-content, inherit;
 
-  padding: auto;
+
 
   background-color: aliceblue;
 
@@ -13,7 +13,13 @@
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
+@media screen and (max-width: 768px) {
+  .header{
+    width: 200%;
+    justify-content: center;
 
+  }
+}
 
 .gif1{
   width: 100%;
