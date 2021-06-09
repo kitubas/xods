@@ -4,6 +4,31 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+
+}
+
+.container .imagem{
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 4px;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border-left: 1.5rem;
+  justify-content: flex-start;
+
+}
+
+.container .texto{
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 4px;
 
 }

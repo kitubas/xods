@@ -10,10 +10,8 @@ export class DashboardService {
 
   constructor(private http: HttpClient) { }
 
-  readonly baseUrl = 'https://bootcamp-dio-santander-2.herokuapp.com/bootcamp/'
+  readonly baseUrl = ''
 
-  async getStocks(): Promise<Stock[]>{
-    return this.http.get<Stock[]>( `${this.baseUrl}/stock`).toPromise();
-  }
+
 
 }
